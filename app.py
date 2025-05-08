@@ -38,7 +38,7 @@ def predict_fake_news(title, text):
 st.set_page_config(page_title="Fake News Detector", layout="centered")
 
 st.title("📰 Fake News Detection Web App")
-st.markdown("Paste a news headline or short paragraph to see if it's fake or real.")
+st.markdown("Paste a news headline and short paragraph to see if it's fake or real.")
 
 # User input
 title_input = st.text_input('Enter news headline here')
